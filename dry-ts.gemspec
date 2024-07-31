@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-require_relative "lib/dry/ts/version"
+require_relative "lib/dry_ts/version"
 
 Gem::Specification.new do |spec|
   spec.name = "dry-ts"
-  spec.version = Dry::Ts::VERSION
+  spec.version = DryTs::VERSION
   spec.authors = ["Emil Sosa"]
   spec.email = ["emiil.sosa@gmail.com"]
 
