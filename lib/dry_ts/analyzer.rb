@@ -1,12 +1,6 @@
 # frozen_string_literal: true
 
 module DryTs
-  class Hello
-    def self.greet
-      "hello"
-    end
-  end
-
   class Analyzer
     def find_classes_in_module(mod)
       classes = []
